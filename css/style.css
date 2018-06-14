@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+ }
+ 
+ .header{
+    border-bottom: 2px solid white;
+    min-width: 100vw;
+    min-height: 12vh;
+    padding: 2vh 2vw 0vh 2vw;
+    background-color: red;
+ }
+ 
+ .name{
+    font-size: 28px;
+ }
+ 
+ p, span{
+    display: inline;
+ }
+ 
+ span{
+    margin-left: 70vw;
+ }
+ 
+ .sidebar{
+    display: inline-block;
+    min-width: 20vw;
+    max-width: 30vw;
+    height: 700px;
+    border-right: 1px solid red;
+    background-color: white;
+    
+ }
+ main{
+     position: absolute;
+     display: inline-block;
+     min-width: 69vw;
+     min-height: 700px;
+ }
+ footer{
+     position: absolute;
+     min-width: 100vw;
+     top: 799px;
+     border-top: 1px solid white;
+     padding-left: 2vw;
+ }
+
+ form{
+margin-top: 12vh;
+margin-left: 25vw;
+ }
+
+ form input{
+     display: block;
+     margin-bottom: 2vh;
+     margin-top: 2vh;
+
+ }
